@@ -28,7 +28,6 @@ def preprocess(dataset_path=DATASET_PATH):
     # mfcc_data = {}
     print(dataset_path)
     for path, subdirs, files in os.walk(dataset_path):
-        print("asif2")
         dir_name = path.split('/')[-1]
         print(dir_name)
         json_dir = os.path.join(MFCC_PATH, dir_name)
@@ -45,7 +44,4 @@ def preprocess(dataset_path=DATASET_PATH):
             save_mfcc(mfcc_data, filename)
 
 if __name__ == "__main__":
-    print("asif")
     preprocess()
-    print("asif")
-
