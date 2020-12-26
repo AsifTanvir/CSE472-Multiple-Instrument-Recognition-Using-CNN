@@ -2,7 +2,7 @@
 
 ## Introduction
 In this project we have used Convolutional Neural Network for Multiple instrument recognition from audio files. The audio files have been collected from open data source called
-Openmic, [which can be found here](https://github.com/cosmir/openmic-2018?fbclid=IwAR25jW1O7JDq0d-IjoN70bi-IpmJomQ9eCc1aHe-eOoEIWJ5DptPoI-Du1w). The code is still ongoing as 
+Openmic, [which can be found here](https://zenodo.org/record/1432913#.X-eXW_kzZPa). The code is still ongoing as 
 the model performs very poorly and we are trying to improve it.
 
 ## Preprocessing
