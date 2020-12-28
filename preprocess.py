@@ -2,7 +2,7 @@ import os
 import librosa
 import json
 
-#dataset and mfcc path
+#dataset and mfcc path settings
 DATASET_PATH = os.path.join(os.getcwd(), 'audio')
 MFCC_PATH = os.path.join(os.getcwd(), 'mfcc')
 print(DATASET_PATH, MFCC_PATH)
